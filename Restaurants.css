@@ -1,0 +1,57 @@
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+ #nav li {
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav li a:hover {
+    background-color: #111;
+  }
+
+  #nav input[type=text] {
+    float: left;
+    padding: 0px;
+    border: none;
+    margin-top: 8px;
+    
+    font-size: 17px;
+  }
+
+  #search{
+    background-color: red;
+    width: 25px;
+    height: 21px;
+    object-fit: contain;
+    margin-top: 8px;
+     }
+
+     #signin{
+        list-style-type: none;
+        color: white;
+        font-size: 17px;
+       float: right;   
+     }
+     
+     h1{
+     animation-name: example;
+     animation-duration: 5s;
+     }
+
+     @keyframes example {
+        from {background-color: red;}
+        to {background-color: blue;}
+      }
